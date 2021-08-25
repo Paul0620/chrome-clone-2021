@@ -1,8 +1,7 @@
-const player = {
-    name: "paul",
-    points: 10,
-    fat: true,
-};
-player.fat = false;
-console.log(player);
-console.log(player["name"]);
+const age = parseInt(prompt("How old are you?"));
+
+if (isNaN(age)){
+  console.log("Please write a number.")
+} else {
+  console.log("Thank you for wirting your age.")
+}
