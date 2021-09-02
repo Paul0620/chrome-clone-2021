@@ -8,4 +8,12 @@
 
 [3. 과제 - 랜덤 숫자 맞추기](https://codesandbox.io/s/empty-blueprint-forked-05ttg)
 
-- form을 이용하여 값을 랜덤범위의 최대값, 추측값을 보내 결과값을 반환
+- form을 이용하여 값을 랜덤범위의 최대값, 추측값을 보내 결과값을 반환 정답(https://codesandbox.io/s/a07solution-fnylk)
+
+[4. 과제 - D-Day 만들기](https://codesandbox.io/s/a08blueprint-forked-t0vby)
+
+- Date 객체를 생성하는 생성자를 이용하여 지정날짜, 현재날짜를 가져와 서로 뺀뒤 그 차이의 밀리초단위의 시간을 각각 날짜, 시, 분, 초에 맞게 나누어 계산 후 출력 정답(https://codesandbox.io/s/a08solution-s9o2m)
+
+[5. 과제 - 랜덤 그라데이션 색](https://codesandbox.io/s/a09blueprint-forked-qc7tw?file=/src/index.js)
+
+- 주어진 색을 Math.random()함수를 이용하여 중복되지 않게 가져온 후 그 두색을 linear-gradient를 이용하여 중앙의 버튼 클릭시 body태그 style에 적용하여 색을 클릭마다 바꾼다. 정답(https://codesandbox.io/s/a08solution-s9o2m)
