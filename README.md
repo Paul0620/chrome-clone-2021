@@ -16,4 +16,4 @@
 
 [5. 과제 - 랜덤 그라데이션 색](https://codesandbox.io/s/a09blueprint-forked-qc7tw?file=/src/index.js)
 
-- 주어진 색을 Math.random()함수를 이용하여 중복되지 않게 가져온 후 그 두색을 linear-gradient를 이용하여 중앙의 버튼 클릭시 body태그 style에 적용하여 색을 클릭마다 바꾼다. 정답(https://codesandbox.io/s/a08solution-s9o2m)
+- 주어진 색을 Math.random()함수를 이용하여 중복되지 않게 가져온 후 그 두색을 linear-gradient를 이용하여 중앙의 버튼 클릭시 body태그 style에 적용하여 색을 클릭마다 바꾼다. 정답(https://codesandbox.io/s/a09solution-zz40g)
