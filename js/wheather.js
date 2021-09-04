@@ -6,10 +6,10 @@ function onGeoOk(position) {
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
   fetch(url).then((response) =>
     response.json().then((data) => {
-      const weather = document.querySelector("#weather span:first-child");
-      const city = document.querySelector("#weather span:last-child");
-      city.innerText = data.name;
-      weather.innerText = `${data.weather[0].main} / ${data.main.temp}도`;
+      const city = document.querySelector("#weather span:first-child");
+      const weather = document.querySelector("#weather span:last-child");
+      city.innerText = `지 역 : ${data.name} \n`;
+      weather.innerText = `날 씨 : ${data.weather[0].main} \n 온 도 : ${data.main.temp}도`;
     })
   );
 }

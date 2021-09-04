@@ -24,10 +24,13 @@ function paintToDo(newTodo) {
   span.innerText = newTodo.text;
   const button = document.createElement("button");
   button.innerText = "❌";
-  button.addEventListener("click", deleteToDo)
+  button.addEventListener("click", deleteToDo);
   li.appendChild(span);
   li.appendChild(button);
   todoList.appendChild(li);
+  if (toDos !== null) {
+    todoList.style.padding = "10px";
+  }
 }
 
 function handleToDoSubmit(event) {
